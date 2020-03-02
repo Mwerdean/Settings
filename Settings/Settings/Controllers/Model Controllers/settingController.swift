@@ -19,8 +19,8 @@ class settingController {
     }()
     
     // MARK: - Methods
-    func toggleIsOn(for settimg: Setting) {
-        
+    func toggleIsOn(for setting: Setting) {
+        setting.isOn.toggle()
     }
 }
 
